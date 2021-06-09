@@ -4,4 +4,10 @@ const items = {
     wallets: 2,
 };
 
+const ibitems = {
+    ...items,
+    pants: 10,
+    wallets: 2,
+}
 console.log(items);
+console.log(ibitems);
